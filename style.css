@@ -477,6 +477,94 @@ a { text-decoration: none; color: inherit; }
   vertical-align: middle;
 }
 .pricing-divider { height: 1px; background: var(--gold); opacity: 0.2; }
+.pricing-category-header {
+  background: var(--navy);
+  color: var(--gold);
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 10px 24px;
+  grid-column: 1 / -1;
+  display: block;
+}
+.price.complimentary {
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  color: var(--gold);
+}
+.grand-opening-banner {
+  max-width: 780px;
+  margin: 0 auto 32px;
+  background: var(--navy);
+  border: 2px solid var(--gold);
+  border-radius: 10px;
+  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.grand-opening-off {
+  background: var(--gold);
+  color: var(--navy);
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 12px 20px;
+  white-space: nowrap;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.grand-opening-off span {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+.grand-opening-info {
+  flex: 1;
+  color: var(--white);
+}
+.grand-opening-info strong {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--gold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+.grand-opening-info p {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.85);
+}
+.grand-opening-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.75);
+}
+.grand-opening-info ul li::before { content: "✓ "; color: var(--gold); }
+.grand-opening-tagline {
+  color: var(--gold);
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  font-style: italic;
+  text-align: center;
+  flex-basis: 100%;
+  border-top: 1px solid rgba(201,162,39,0.3);
+  padding-top: 12px;
+  margin-top: 4px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 .pricing-note {
   text-align: center;
   font-size: 0.82rem;
