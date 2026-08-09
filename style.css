@@ -863,5 +863,5 @@ a { text-decoration: none; color: inherit; }
 @media (max-width: 480px) {
   .pricing-row { grid-template-columns: 1fr 110px; }
   .pricing-row span:nth-child(2) { display: none; }
-  .price-original { display: none; }
+  .price-original { display: inline; font-size: 0.8em; }
 }
