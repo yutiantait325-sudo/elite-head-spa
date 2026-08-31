@@ -267,6 +267,12 @@ a { text-decoration: none; color: inherit; }
   color: rgba(255,255,255,0.4);
   letter-spacing: 0.04em;
 }
+.hero-notice {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.04em;
+  margin-top: 10px;
+}
 
 /* Right panel — image */
 .hero-right {
