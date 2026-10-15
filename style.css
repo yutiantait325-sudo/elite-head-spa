@@ -508,7 +508,7 @@ a { text-decoration: none; color: inherit; }
 }
 .pricing-row {
   display: grid;
-  grid-template-columns: 1fr 100px 130px;
+  grid-template-columns: 1fr 100px;
   padding: 15px 24px;
   border-bottom: 1px solid rgba(0,0,0,0.06);
   align-items: center;
